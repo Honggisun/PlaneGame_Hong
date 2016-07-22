@@ -28,7 +28,7 @@ int main()
 					game_init();
 					map_dump(&gScreenBuf[1],Default_Tilepalete);
 
-					puts("high w|down s|left a|right d|exit q");
+					puts("|up w|down s|left a|right d|exit q|");
 					
 					nStep = 1;
 					break;
