@@ -2,5 +2,5 @@
 
 This is **plane** game
 
-- ##**Compile guide**
-- #**All C**file is compile
+##- **Compile guide**
+###- **All C**file is compile
