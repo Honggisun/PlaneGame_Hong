@@ -28,7 +28,7 @@ int main()
 					game_init();
 					map_dump(&gScreenBuf[1],Default_Tilepalete);
 
-					puts("---------press key----------");
+					puts("high w|down s|left a|right d|exit q");
 					
 					nStep = 1;
 					break;
@@ -53,7 +53,10 @@ case 1:
 		}
 		else if(nFSM == 1)
 		{
+
 			game_play();
+
+	
 		}
 
 
