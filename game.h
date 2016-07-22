@@ -52,7 +52,7 @@ void game_init()
 
 	gTestPlaneObject.m_nFSM = 1;
 
-	double TablePosition[] = {0,3.0,6.0,9.0,12.0,15.0,18.0,21.0,24.0,27.0};
+	double TablePosition[] = {0,4.0,8.0,12.0,16.0,20.0,24.0,28.0,32.0,36.0};
 
 	for(int i=0;i< sizeof(gTestBulletObject)/sizeof(_S_BULLET_OBJECT); i++)
 	{
