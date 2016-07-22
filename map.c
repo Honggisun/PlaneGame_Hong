@@ -109,10 +109,10 @@ int map_load(_S_MAP_OBJECT *pObj,char *filename)
 
 	fread(pObj->m_pBuf,nSize,1,pf);
 
-	for(int i=0;i<nSize;i++) {
+/*	for(int i=0;i<nSize;i++) {
 		printf("%d,",pObj->m_pBuf[i]);
 	}
-
+*/
 	return 0;
 }
 
