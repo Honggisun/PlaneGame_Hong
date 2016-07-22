@@ -3,7 +3,7 @@
 This is **plane** game
 
 ##- **Compile guide**
-### **All filename.C** file is compile
+### **All (filename).C** file is compile
 
 ![Title Screenshot](start.png " Title Screenshot ")
 Title Screenshot
