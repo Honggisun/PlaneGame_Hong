@@ -8,7 +8,15 @@ This is **plane** game
 gcc plane_game.c plane.c alien.c bullet.c map.c engine2d.c -o plane_game.exe
 
 
-##Control |up w|down s|left a|right d|
+
+
+##Control 
+
+###|up w|down s|left a|right d|
+
+
+
+
 
 #ScreenShot 
 
@@ -17,5 +25,5 @@ gcc plane_game.c plane.c alien.c bullet.c map.c engine2d.c -o plane_game.exe
 
 
 
-##Main Screenshot
+##Play Screenshot
 ![Main Screenshot](main.png " Main Screenshot ")
