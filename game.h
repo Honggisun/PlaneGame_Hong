@@ -38,7 +38,7 @@ void game_init()
 
 
 	map_init(&gAlienModel);
-	map_load(&gAlienModel,"alien5.dat");
+	map_load(&gAlienModel,"target5.dat");
 
 	map_init(&gPlasmaModel);
 	map_load(&gPlasmaModel,"bullet5.dat");
@@ -145,9 +145,21 @@ void game_play()
 
 
 				if(dist < 2.0) {
-					gTestBulletObject2[i].m_nFSM = 0;
-					gTestPlaneObject.m_nFSM = 0;
-					puts("-------------game over-------------");
+					system("clear");
+					puts("----------------------------------\r\n");
+					puts("-------------GAME OVER-------------\r\n");
+					puts("---------G-------------------------\r\n");
+					puts("-----------A-----------------------\r\n");
+					puts("-------------M---------------------\r\n");
+					puts("---------------E-------------------\r\n");
+					puts("-------------GAME OVER-------------\r\n");
+					puts("-------------------O---------------\r\n");
+					puts("---------------------V-------------\r\n");
+					puts("-----------------------E-----------\r\n");
+					puts("-------------------------R---------\r\n");
+					puts("-------------GAME OVER-------------\r\n");
+					puts("-----------------------------------\r\n");
+					bLoop = 0;
 				}
 			}
 
