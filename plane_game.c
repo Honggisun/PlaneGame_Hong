@@ -28,7 +28,7 @@ int main()
 					game_init();
 					map_dump(&gScreenBuf[1],Default_Tilepalete);
 
-					puts("press key");
+					puts("---------press key----------");
 					
 					nStep = 1;
 					break;

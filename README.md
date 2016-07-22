@@ -3,4 +3,4 @@
 This is **plane** game
 
 ##- **Compile guide**
-###- **All C**file is compile
+###- **All C** file is compile
